@@ -13,8 +13,8 @@ import (
 	"encoding/xml"
 	"strconv"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/dml"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/schema/soo/dml"
 )
 
 type ColorsDefHdr struct {

@@ -7,7 +7,7 @@
 
 package spreadsheet
 
-import "github.com/unidoc/unioffice/schema/soo/sml"
+import "github.com/xxiiaass/unidoc2/schema/soo/sml"
 
 // Comment is a single comment within a sheet.
 type Comment struct {

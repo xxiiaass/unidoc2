@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/unidoc/unioffice/spreadsheet"
-	"github.com/unidoc/unioffice/spreadsheet/format"
+	"github.com/xxiiaass/unidoc2/spreadsheet"
+	"github.com/xxiiaass/unidoc2/spreadsheet/format"
 )
 
 func main() {

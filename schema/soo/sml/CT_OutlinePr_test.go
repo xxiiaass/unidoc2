@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/sml"
+	"github.com/xxiiaass/unidoc2/schema/soo/sml"
 )
 
 func TestCT_OutlinePrConstructor(t *testing.T) {

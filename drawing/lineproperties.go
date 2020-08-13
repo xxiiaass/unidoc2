@@ -8,10 +8,10 @@
 package drawing
 
 import (
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/color"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/schema/soo/dml"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/color"
+	"github.com/xxiiaass/unidoc2/measurement"
+	"github.com/xxiiaass/unidoc2/schema/soo/dml"
 )
 
 type LineProperties struct {

@@ -8,9 +8,9 @@
 package document
 
 import (
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/measurement"
+	"github.com/xxiiaass/unidoc2/schema/soo/wml"
 )
 
 // TableStyleProperties are table properties as defined in a style.

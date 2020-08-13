@@ -8,10 +8,10 @@
 package chart
 
 import (
-	"github.com/unidoc/unioffice/drawing"
+	"github.com/xxiiaass/unidoc2/drawing"
 
-	"github.com/unidoc/unioffice/schema/soo/dml"
-	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
+	"github.com/xxiiaass/unidoc2/schema/soo/dml"
+	crt "github.com/xxiiaass/unidoc2/schema/soo/dml/chart"
 )
 
 type Marker struct {

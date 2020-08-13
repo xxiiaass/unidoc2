@@ -7,7 +7,7 @@
 
 package spreadsheet
 
-import "github.com/unidoc/unioffice/schema/soo/sml"
+import "github.com/xxiiaass/unidoc2/schema/soo/sml"
 
 type Table struct {
 	x *sml.Table

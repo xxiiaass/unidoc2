@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/ofc/math"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/schema/soo/ofc/math"
 )
 
 type CT_FtnEdn struct {

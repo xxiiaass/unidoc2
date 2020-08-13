@@ -12,8 +12,8 @@ package extended_properties
 import (
 	"encoding/xml"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/schema/soo/ofc/docPropsVTypes"
 )
 
 type CT_VectorVariant struct {

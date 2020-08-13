@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/unidoc/unioffice/spreadsheet/update"
+	"github.com/xxiiaass/unidoc2/spreadsheet/update"
 )
 
 // BinOpType is the binary operation operator type

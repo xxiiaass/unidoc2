@@ -19,18 +19,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/color"
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/common/license"
-	"github.com/unidoc/unioffice/vmldrawing"
-	"github.com/unidoc/unioffice/zippkg"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/color"
+	"github.com/xxiiaass/unidoc2/common"
+	"github.com/xxiiaass/unidoc2/common/license"
+	"github.com/xxiiaass/unidoc2/vmldrawing"
+	"github.com/xxiiaass/unidoc2/zippkg"
 
-	"github.com/unidoc/unioffice/schema/soo/dml"
-	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
-	sd "github.com/unidoc/unioffice/schema/soo/dml/spreadsheetDrawing"
-	"github.com/unidoc/unioffice/schema/soo/pkg/relationships"
-	"github.com/unidoc/unioffice/schema/soo/sml"
+	"github.com/xxiiaass/unidoc2/schema/soo/dml"
+	crt "github.com/xxiiaass/unidoc2/schema/soo/dml/chart"
+	sd "github.com/xxiiaass/unidoc2/schema/soo/dml/spreadsheetDrawing"
+	"github.com/xxiiaass/unidoc2/schema/soo/pkg/relationships"
+	"github.com/xxiiaass/unidoc2/schema/soo/sml"
 )
 
 // ErrorNotFound is returned when something is not found

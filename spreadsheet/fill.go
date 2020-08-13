@@ -8,7 +8,7 @@
 package spreadsheet
 
 import (
-	"github.com/unidoc/unioffice/schema/soo/sml"
+	"github.com/xxiiaass/unidoc2/schema/soo/sml"
 )
 
 type Fill struct {

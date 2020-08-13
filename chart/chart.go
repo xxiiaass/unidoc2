@@ -10,12 +10,12 @@ package chart
 import (
 	"math/rand"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/color"
-	"github.com/unidoc/unioffice/drawing"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/color"
+	"github.com/xxiiaass/unidoc2/drawing"
 
-	"github.com/unidoc/unioffice/schema/soo/dml"
-	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
+	"github.com/xxiiaass/unidoc2/schema/soo/dml"
+	crt "github.com/xxiiaass/unidoc2/schema/soo/dml/chart"
 )
 
 // Chart is a generic chart.

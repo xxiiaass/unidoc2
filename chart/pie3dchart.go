@@ -7,8 +7,8 @@
 
 package chart
 
-import crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
-import "github.com/unidoc/unioffice"
+import crt "github.com/xxiiaass/unidoc2/schema/soo/dml/chart"
+import "github.com/xxiiaass/unidoc2"
 
 // Pie3DChart is a Pie3D chart.
 type Pie3DChart struct {

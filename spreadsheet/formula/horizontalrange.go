@@ -7,7 +7,7 @@
 
 package formula
 
-import "github.com/unidoc/unioffice/spreadsheet/update"
+import "github.com/xxiiaass/unidoc2/spreadsheet/update"
 
 import (
 	"fmt"

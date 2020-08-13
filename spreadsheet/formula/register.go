@@ -11,7 +11,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/unidoc/unioffice"
+	"github.com/xxiiaass/unidoc2"
 )
 
 // SupportedFunctions returns a list of supported functions.

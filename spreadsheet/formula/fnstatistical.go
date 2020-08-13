@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/internal/wildcard"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/internal/wildcard"
 )
 
 func init() {

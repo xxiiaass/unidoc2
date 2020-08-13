@@ -12,7 +12,7 @@ package dml
 import (
 	"encoding/xml"
 
-	"github.com/unidoc/unioffice"
+	"github.com/xxiiaass/unidoc2"
 )
 
 type CT_TextLineBreak struct {

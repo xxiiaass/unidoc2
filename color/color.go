@@ -8,7 +8,7 @@
 package color
 
 import (
-	"github.com/unidoc/unioffice"
+	"github.com/xxiiaass/unidoc2"
 )
 
 // Color is a 24 bit color that can be converted to

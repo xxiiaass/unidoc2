@@ -8,7 +8,7 @@
 package presentation
 
 import (
-	"github.com/unidoc/unioffice/schema/soo/pml"
+	"github.com/xxiiaass/unidoc2/schema/soo/pml"
 )
 
 // SlideLayout is a layout from which slides can be created.

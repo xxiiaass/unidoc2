@@ -7,7 +7,7 @@
 
 package document
 
-import "github.com/unidoc/unioffice/schema/soo/wml"
+import "github.com/xxiiaass/unidoc2/schema/soo/wml"
 
 // TableConditionalFormatting controls the conditional formatting within a table
 // style.

@@ -12,13 +12,13 @@ import (
 	"errors"
 	"math/rand"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/schema/soo/dml"
-	pic "github.com/unidoc/unioffice/schema/soo/dml/picture"
-	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/xxiiaass/unidoc2"
+	"github.com/xxiiaass/unidoc2/common"
+	"github.com/xxiiaass/unidoc2/measurement"
+	"github.com/xxiiaass/unidoc2/schema/soo/dml"
+	pic "github.com/xxiiaass/unidoc2/schema/soo/dml/picture"
+	"github.com/xxiiaass/unidoc2/schema/soo/ofc/sharedTypes"
+	"github.com/xxiiaass/unidoc2/schema/soo/wml"
 )
 
 // Run is a run of text within a paragraph that shares the same formatting.
@@ -30,6 +30,21 @@ type Run struct {
 // X returns the inner wrapped XML type.
 func (r Run) X() *wml.CT_R {
 	return r.x
+}
+
+// copy to Run
+func (r Run) CopyStyleTo(to *Run) {
+	to.x.RsidRPrAttr = copyString(r.x.RsidRPrAttr)
+	to.x.RsidDelAttr = copyString(r.x.RsidDelAttr)
+	to.x.RsidRAttr = copyString(r.x.RsidRAttr)
+	to.x.RsidRAttr = copyString(r.x.RsidRAttr)
+	to.x.RPr = r.x.RPr
+	to.x.Extra = r.x.Extra
+}
+
+func copyString(p *string) *string{
+	s := *p
+	return &s
 }
 
 // Text returns the underlying tet in the run.
