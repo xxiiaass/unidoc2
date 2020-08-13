@@ -414,15 +414,12 @@ func (p *Presentation) save(w io.Writer, isTemplate bool) error {
 	}
 
 	if !license.GetLicenseKey().IsLicensed() && flag.Lookup("test.v") == nil {
-		fmt.Println("Unlicensed version of UniOffice")
-		fmt.Println("- Get a license on https://unidoc.io")
 		slide := p.Slides()[0]
 		tb := slide.AddTextBox()
 		tb.Properties().SetPosition(0, 0)
 		tb.Properties().LineProperties().SetWidth(2 * measurement.Inch)
 		p := tb.AddParagraph()
 		r := p.AddRun()
-		r.SetText("Unlicensed version of UniOffice - Get a license on https://unidoc.io")
 		r.Properties().SetSize(12 * measurement.Point)
 		r.Properties().SetBold(true)
 		r.Properties().SetSolidFill(color.Red)
