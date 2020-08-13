@@ -22,6 +22,15 @@ func (p Paragraph) X() *wml.CT_P {
 	return p.x
 }
 
+// copy to Run
+func (r Paragraph) CopyStyleTo(to *Paragraph) {
+	to.x.RsidRPrAttr = copyString(r.x.RsidRPrAttr)
+	to.x.RsidDelAttr = copyString(r.x.RsidDelAttr)
+	to.x.RsidRAttr = copyString(r.x.RsidRAttr)
+	to.x.RsidRAttr = copyString(r.x.RsidRAttr)
+	to.x.PPr = r.x.PPr
+}
+
 func (p Paragraph) ensurePPr() {
 	if p.x.PPr == nil {
 		p.x.PPr = wml.NewCT_PPr()
