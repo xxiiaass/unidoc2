@@ -43,6 +43,9 @@ func (r Run) CopyStyleTo(to *Run) {
 }
 
 func copyString(p *string) *string{
+	if p == nil{
+		return nil
+	}
 	s := *p
 	return &s
 }
