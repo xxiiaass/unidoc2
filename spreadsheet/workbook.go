@@ -10,7 +10,6 @@ package spreadsheet
 import (
 	"archive/zip"
 	"errors"
-	"flag"
 	"fmt"
 	"image"
 	"image/jpeg"
@@ -20,9 +19,7 @@ import (
 	"time"
 
 	"github.com/xxiiaass/unidoc2"
-	"github.com/xxiiaass/unidoc2/color"
 	"github.com/xxiiaass/unidoc2/common"
-	"github.com/xxiiaass/unidoc2/common/license"
 	"github.com/xxiiaass/unidoc2/vmldrawing"
 	"github.com/xxiiaass/unidoc2/zippkg"
 
